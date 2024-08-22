@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #006b53;
+    background-image: url(brown-mountains-aerial-view-mountain-range-landscape-3840x2160-2837.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.all-form {
+    background-color:#01241725;
+    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.99);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin: 7rem auto;
+    border-radius: 20px;
+    width: 23rem;
+    height: 33.7rem;
+    color: #fff;
+}
+
+.sign-header h1 {
+    padding-top: 2rem;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sign-header h5 {
+    padding-top: 2px;
+}
+
+.outputs {
+    padding-top: 1rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    padding-right: 16rem;
+}
+
+.number, .password, .date {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.number input, .password input, .date input {
+    background-color: #4704123a;
+    border-radius: 10px;
+    border: 1px solid #BFE9D7;
+    padding: 13px 10px 13px 38px;
+    color: #ffff;
+    width: calc(100% - 60px);
+}
+
+.number input:focus-within, .password input:focus-within, .date input:focus-within{
+    box-shadow:
+  0px 0px 1px rgb(140, 193, 163),
+  0px 0px 3px rgb(140, 193, 163),
+  0px 0px 5px rgb(140, 193, 163),
+  0px 0px 10px rgb(140, 193, 163),
+  0px 0px 20px rgb(140, 193, 163)
+;
+}
+
+.password i, .number i, .date i {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e15a77;
+}
+
+.signup-btn button {
+    background-color: #d14463d4;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 105px;
+    color: #ffff;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.signup-btn a {
+    color: #ffff;
+}
+
+.signup-btn button:hover {
+    background-color: #832b3ed4;
+    cursor: pointer;
+}
+
+.back{
+    padding-top: 1.2rem;
+    text-decoration: none;
+}
+
+.back a{
+    text-decoration: none;
+    color: #cf3254d7;
+    font-weight: 500;
+}
+
+.under {
+    padding-top: 2rem;
+    line-height: 25px;
+}
+
+.under-charit span a {
+    text-decoration: underline;
+    color: #cf3254d7;
+    font-weight: 700;
+    padding-top: 6px;
+}
+
+.under-charit {
+    padding-top: 1rem;
+}
+
+.under-charit span a:hover{
+    text-decoration: none;
+}
+
+
+/*
+
+
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+RESPONSIVE 
+
+
+*/
+
+
+
+@media (max-width: 370px) {
+    .all-form {
+        width: 20rem;
+        height: 33.7rem;
+    }
+}
